@@ -1,0 +1,14 @@
+.FoodDetails{
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+
+    .FoodDescription {
+        margin-top: 5rem;
+    }
+
+    .food-img {
+        z-index: -1;
+        margin-top: 1rem;
+    }
+}

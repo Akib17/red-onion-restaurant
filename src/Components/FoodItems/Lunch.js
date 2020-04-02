@@ -1,5 +1,5 @@
 import React from 'react';
-import LunchData from '../../fakeData/LunchData';
+import LunchData from '../../FakeData/LunchData';
 
 const Lunch = (props) => {
     const lunchData = LunchData.map(li => li)

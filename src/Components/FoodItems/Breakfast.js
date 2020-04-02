@@ -1,6 +1,6 @@
 import React from 'react';
 import './FoodItems.scss'
-import breakFast from '../../fakeData/BreakfastData';
+import breakFast from '../../FakeData/BreakfastData';
 import { Link } from 'react-router-dom';
 import BreakfaseDesign from './BreakfaseDesign';
 

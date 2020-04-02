@@ -2,22 +2,19 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './Components/Header/Header';
-import NotFound from './Components/NotFound/NotFound';
 import Home from './Components/Home/Home';
-import Hero from './Components/HeroArea/Hero';
-import FoodNav from './Components/FoodCategory/FoodNav';
-import FoodRoute from './Components/FoodCategory/FoodRoute';
 import FoodDetails from './Components/FoodDetails/FoodDetails';
+import Cart from './Components/Cart/Cart';
 
 function App() {
   return (
     <div>
-      <Header></Header>
       <Router>
+      <Header></Header>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/food/:itemKey" component={FoodDetails} />
-          <Route path="*" component={NotFound} />
+          <Route path="/cart" component={Cart} />
         </Switch>
       </Router>
     </div>
